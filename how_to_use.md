@@ -29,3 +29,20 @@ summary(result)
 plot(data$x,data$y,xlab="x軸ラベル",ylab="y軸ラベル")
 abline(result)
 ```
+
+## 重回帰分析
+```R
+data <- read.csv("ファイル名.csv")
+```
+
+2. 単回帰分析の実行
+```R
+result <- lm(従属変数~説明変数1+説明変数2+...,data=data)
+summary(result)
+```
+
+3. グラフの描画
+```R
+plot(data$x,data$y,xlab="x軸ラベル",ylab="y軸ラベル")
+abline(result)
+```
