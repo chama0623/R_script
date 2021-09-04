@@ -46,3 +46,8 @@ summary(result)
 plot(data$x,data$y,xlab="x軸ラベル",ylab="y軸ラベル")
 abline(result)
 ```
+
+ステップワイズ法で変数選択を行う場合はstepwise.Rを実行する.
+```R
+source("stepwise.R")
+```
